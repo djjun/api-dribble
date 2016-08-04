@@ -3,6 +3,8 @@ define(function(require) {
 
   var module = require('./module');
   require('./apiRoot');
+  require('./interceptor');
+  require('./config');
   require('./controller');
   require('./states');
 

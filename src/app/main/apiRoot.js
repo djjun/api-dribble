@@ -3,6 +3,7 @@ define(function(require) {
 
   var module = require('./module');
 
-  module.value('API_URL', 'http://localhost');
+  //API DO DRIBBLE
+  module.value('BACKEND_API_URL_ROOT', 'https://api.dribbble.com');
 
 });

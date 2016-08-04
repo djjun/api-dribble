@@ -16,8 +16,8 @@ define(function(require) {
   function ConfigStates($stateProvider, $urlRouterProvider, $httpProvider) {
 
     $urlRouterProvider
-      .when('', '/home') // default
-      .when('/', '/home') // default
+      .when('', '/dashboard') // default
+      .when('/', '/dashboard') // default
       .otherwise('/404'); // For any unmatched url, redirect to /404
 
     $stateProvider

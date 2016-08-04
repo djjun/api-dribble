@@ -20,7 +20,8 @@ define(function(require) {
 
       require('./tpl/cache').name,
 
-      require('app/home/package').name
+      require('app/dashboard/package').name,
+      require('app/shot/package').name
 
     ]
   );
