@@ -1,0 +1,12 @@
+<div class="row" ng-init="vm.init()">
+  <md-card class="col-xs-6 col-sm-4 col-md-3 col-lg-2" ng-repeat="item in vm.data" flex ng-click="vm.onClick(item.id)">
+    <div class="row">
+      <img ng-src="{{item.images.teaser}}" class="img-responsive md-card-image" alt="user avatar">
+      <md-card-content>
+        <h4 ng-bind="item.title"></h4>
+        <p ng-bind="item.likes_count"></p>
+      </md-card-content>
+    </div>
+  </md-card>
+
+</div>
