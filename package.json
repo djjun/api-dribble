@@ -7,8 +7,7 @@
     "outdated": "npm outdated --depth=0",
     "setup": "node tools/scripts/setup",
     "testos": "node tools/scripts/testos",
-    "start": "node app",
-    "postinstall": "gulp --release"
+    "postinstall": "npm run setup"
   },
   "devDependencies": {
     "browser-sync": "^2.5.3",
