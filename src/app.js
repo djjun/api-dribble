@@ -16,7 +16,8 @@ define(function(require) {
 
       // module dependencies
       [
-        require('app/main/package').name
+        require('app/main/package').name,
+        require('component/package').name
       ]
     );
 
