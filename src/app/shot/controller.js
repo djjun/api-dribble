@@ -15,7 +15,7 @@ define(function(require) {
 
     // TODO: review
 
-    console.log('shot', shot);
+    vm.shot = shot;
 
   }
 

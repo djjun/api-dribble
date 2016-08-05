@@ -1,4 +1,24 @@
 <div class="row" >
-  oii
+
+  <div class="col-xs-12">
+    <h1 class="title" ng-bind="vm.shot.title"></h1>
+  </div>
+
+
+  <div class="col-xs-12 col-sm-6 col-md-8">
+    <img ng-src="{{vm.shot.images.hidpi}}" alt="" class="img-responsive">
+  </div>
+
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="info">
+      <img alt="" ng-src="{{vm.shot.user.avatar_url}}" class="pull-left" alt="{{vm.shot.user.name}}">
+      <div class="pull-left">
+        <h3 class="info__user-name">{{vm.shot.user.name}}</h3>
+        <span class="info__user-location">{{vm.shot.user.location}}</span>
+      </div>
+    </div>
+    <md-divider></md-divider>
+    <p>{{vm.shot.user.bio}}</p>
+  </div>
 
 </div>
