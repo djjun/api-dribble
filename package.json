@@ -1,12 +1,13 @@
 {
-  "name": "angular-boilerplate",
+  "name": "api-dribble",
   "version": "1.0.0",
   "private": true,
-  "description": "AngularJS Boilerplate.",
+  "description": "Api Dribble",
   "scripts": {
     "outdated": "npm outdated --depth=0",
     "setup": "node tools/scripts/setup",
     "testos": "node tools/scripts/testos",
+    "start": "node app",
     "postinstall": "gulp --release"
   },
   "devDependencies": {
