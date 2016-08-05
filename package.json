@@ -7,7 +7,7 @@
     "outdated": "npm outdated --depth=0",
     "setup": "node tools/scripts/setup",
     "testos": "node tools/scripts/testos",
-    "postinstall": "npm run setup"
+    "postinstall": "npm install"
   },
   "devDependencies": {
     "browser-sync": "^2.5.3",
