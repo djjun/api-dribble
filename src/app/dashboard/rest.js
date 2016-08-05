@@ -13,7 +13,7 @@ define(function(require) {
     var restPath = apiRoot + '/v1';
 
     var rest = $resource(restPath, {}, {
-      getShots: { method: 'GET', url: restPath + '/shots', isArray: true},
+      getShots: { method: 'GET', url: restPath + '/shots?page=:page', isArray: true},
       getSingleShot: { method: 'GET', url: restPath + '/shots/:id'}
       // insert: { method: 'POST', url: restPath + '/:idGrupo/tipo/:tipo', isArray : true },
       //
