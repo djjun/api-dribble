@@ -6,7 +6,8 @@
   "scripts": {
     "outdated": "npm outdated --depth=0",
     "setup": "node tools/scripts/setup",
-    "testos": "node tools/scripts/testos"
+    "testos": "node tools/scripts/testos",
+    "start": "gulp --release"
   },
   "devDependencies": {
     "browser-sync": "^2.5.3",
